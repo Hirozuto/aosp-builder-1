@@ -8,16 +8,16 @@ env: # Environment variables to pass to all tasks
     rclone_config: "ENCRYPTED[!1f05479865cdd2b61271f79b8d913adc5d7534b6814ee69a84e8867bc5151f05ad69782f3302797b2bfb7901957239ad!]"
     CHAT_ID: "-1001861749152"
     TG_CHAT_ID: "-1001861749152"
-    TG_TOKEN: "ENCRYPTED[!a260400c07cb89b7f163db0195cb6b877bd7c796d5c15f562be741143f1141d0626acd28b5d3686b7d4575fc4ab06de5!]"
-    BOT_TOKEN: "ENCRYPTED[!a260400c07cb89b7f163db0195cb6b877bd7c796d5c15f562be741143f1141d0626acd28b5d3686b7d4575fc4ab06de5!]"
-    GH_EMAIL: "ENCRYPTED[!31a80dec350bf64154f912c080381d8896a8bf18c4df03d4d60b72c4fdf9836a837b456f0c5d0c0ed5be7184b8e2996e!]"
-    GH_TOKEN: "ENCRYPTED[!76677fae6e3b6399625c0356927489a3eb17112f76952cd2af508230737eade70c961ed16fea63f3ebf3fd5f1b08d8e3!]"
+    TG_TOKEN: "ENCRYPTED[!8deadd82a87ee61e14f63fab422c8995852a71e97017c4755267b985f19b6d2c2cdb39c86f4f838d0ec7d0843cfa272d!]"
+    BOT_TOKEN: "ENCRYPTED[!8deadd82a87ee61e14f63fab422c8995852a71e97017c4755267b985f19b6d2c2cdb39c86f4f838d0ec7d0843cfa272d!]"
+    GH_EMAIL: "ENCRYPTED[!76dc7e85954c4b300143e95389a5673daf755efd584c8a9baf11d343e673febcc7fd9c25bb07a176421dd38883afda9e!]"
+    GH_TOKEN: "ENCRYPTED[!44cf08649f4d202c8eadf0887b8f2bb66a7f28175a567a4fb654f44034dfdc432507e0d4d8422b3204b6a6fa3b40d070!]"
 
 
     # Github variables needed so as to be able to clone private repos too without authenticating. Useful for building official roms which have private repos. The first 3 variables needs to be encrypted!! You can hide your email and username by encrypting them too if you want but that's not neccessary.
-    user_email: "ENCRYPTED[!31a80dec350bf64154f912c080381d8896a8bf18c4df03d4d60b72c4fdf9836a837b456f0c5d0c0ed5be7184b8e2996e!]"
+    user_email: "ENCRYPTED[!76dc7e85954c4b300143e95389a5673daf755efd584c8a9baf11d343e673febcc7fd9c25bb07a176421dd38883afda9e!]"
     user_name: "Hirozuto"
-    user_pass: "ENCRYPTED[!76677fae6e3b6399625c0356927489a3eb17112f76952cd2af508230737eade70c961ed16fea63f3ebf3fd5f1b08d8e3!]"
+    user_pass: "ENCRYPTED[!44cf08649f4d202c8eadf0887b8f2bb66a7f28175a567a4fb654f44034dfdc432507e0d4d8422b3204b6a6fa3b40d070!]"
 
 task:
     name: Building # Project name
